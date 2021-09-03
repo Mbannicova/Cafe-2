@@ -1,7 +1,6 @@
 package main;
 import kitchen.BigCup;
 import kitchen.Cup;
-
 import kitchen.SmallCup;
 
 
@@ -13,8 +12,7 @@ public class Application {
 		kitchen.SmallCup cupC = new SmallCup("Tea", 200);
 		kitchen.BigCup cupE = new BigCup("Water", 200);
 		
-		//перелить всю оставшуюся воду из cupB  в эту большую чашку, вывести информацию на экран!
-		
+				
 		cupA.setLiquidVolume(cupA.getLiquidVolume() - 50);
 		cupB.setLiquidVolume(cupB.getLiquidVolume() + 50);
 		cupE.setLiquidVolume(cupE.getLiquidVolume() + cupB.getLiquidVolume() );
